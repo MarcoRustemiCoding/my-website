@@ -1,38 +1,173 @@
-.App {
+/* src/styles.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Light background for contrast */
+}
+
+.header {
+  background: #4a90e2; /* Blue background */
+  color: #ffffff; /* White text color */
+  padding: 20px; /* More padding for better spacing */
+  text-align: center; /* Center align text */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow effect */
+}
+
+.header-title {
+  margin: 0; /* Remove default margin */
+  font-size: 2.5em; /* Larger font size */
+}
+
+.nav-list {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+}
+
+.nav-list li {
+  display: inline; /* Inline items for horizontal navigation */
+  margin: 0 15px; /* Spacing between links */
+}
+
+.nav-list a {
+  color: #ffffff; /* White text color for links */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make links bold */
+}
+
+.nav-list a:hover {
+  text-decoration: underline; /* Underline on hover for better interaction */
+}
+
+section {
+  padding: 50px;
   text-align: center;
 }
+/* src/styles.css */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Existing styles... */
+
+.footer {
+  background: #333; /* Dark background for contrast */
+  color: #ffffff; /* White text color */
+  padding: 20px; /* Padding for spacing */
+  text-align: center; /* Center align text */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer-content {
+  max-width: 1200px; /* Max width for content */
+  margin: 0 auto; /* Center the content */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.footer-links {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
 }
 
-.App-link {
-  color: #61dafb;
+.footer-links li {
+  display: inline; /* Inline items for horizontal navigation */
+  margin: 0 10px; /* Spacing between links */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-links a {
+  color: #ffffff; /* White text color for links */
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-links a:hover {
+  text-decoration: underline; /* Underline on hover for better interaction */
+}
+
+.about {
+  padding: 50px 20px; /* Padding for spacing */
+  background-color: #ffffff; /* White background */
+  text-align: center; /* Center align text */
+}
+
+.about h2 {
+  font-size: 2em; /* Larger font size for the title */
+  margin-bottom: 20px; /* Spacing below the title */
+}
+
+.about p {
+  font-size: 1.2em; /* Adjust font size for readability */
+  max-width: 800px; /* Max width for better layout */
+  margin: 0 auto; /* Center align paragraph */
+}
+
+.about img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+  margin-top: 20px; /* Spacing above the image */
+}
+
+.services {
+  padding: 50px 20px; /* Padding for spacing */
+  background-color: #f4f4f4; /* Light background */
+  text-align: center; /* Center align text */
+}
+
+.services h2 {
+  font-size: 2em; /* Larger font size for the title */
+  margin-bottom: 20px; /* Spacing below the title */
+}
+
+.service-item {
+  margin: 20px 0; /* Spacing between service items */
+}
+
+.service-item h3 {
+  font-size: 1.5em; /* Font size for service titles */
+}
+
+.service-item p {
+  font-size: 1.1em; /* Font size for descriptions */
+}
+
+button {
+  padding: 10px 20px; /* Button padding */
+  font-size: 1em; /* Button font size */
+  background-color: #4a90e2; /* Button color */
+  color: #fff; /* Button text color */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer on hover */
+  margin-top: 20px; /* Spacing above the button */
+}
+
+button:hover {
+  background-color: #357ABD; /* Darker button color on hover */
+}
+
+.testimonials {
+  padding: 50px 20px; /* Padding for spacing */
+  background-color: #ffffff; /* White background */
+  text-align: center; /* Center align text */
+}
+
+.testimonials h2 {
+  font-size: 2em; /* Larger font size for the title */
+  margin-bottom: 20px; /* Spacing below the title */
+}
+
+.testimonial-item {
+  margin: 20px 0; /* Spacing between testimonials */
+}
+
+.testimonial-item p {
+  font-size: 1.2em; /* Font size for testimonials */
+  margin: 5px 0; /* Spacing for client name */
+}
+
+button {
+  padding: 10px 20px; /* Button padding */
+  font-size: 1em; /* Button font size */
+  background-color: #4a90e2; /* Button color */
+  color: #fff; /* Button text color */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer on hover */
+  margin-top: 20px; /* Spacing above the button */
+}
+
+button:hover {
+  background-color: #357ABD; /* Darker button color on hover */
 }
